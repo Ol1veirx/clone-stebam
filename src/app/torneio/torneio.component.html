@@ -1,0 +1,30 @@
+<div class="header">
+  <div class="header-logo">
+    <img src="https://stebam.com/assets/img/logo.png" alt="Logo">
+  </div>
+  <div class="header-title">
+    <h2>Campeonatos</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card-container">
+    <div class="card" *ngFor="let torneio of torneios">
+      <mat-card>
+        <img mat-card-image src= "{{ torneio.imagemUrl }}" alt="Imagem do Torneio">
+        <mat-card-header>
+          <mat-card-title>{{ torneio.nome }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p><strong>Localização:</strong> {{ torneio.localizacao }}</p>
+          <p><strong>Datas:</strong> {{ torneio.datas }}</p>
+          <p><strong>Inscrições:</strong> {{ torneio.inscricoes }}</p>
+          <p><strong>Inscritos:</strong> {{ torneio.numeroInscritos }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button color="primary" (click)="verDetalhes()">Detalhes</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
