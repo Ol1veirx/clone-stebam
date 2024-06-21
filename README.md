@@ -1,27 +1,20 @@
 # CloneStebam
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+Projeto Angular -Clone Stebam
+Este projeto foi desenvolvido em Angular e apresenta uma tabela de resultados para um torneio, além de opções de filtros para as baterias do torneio e modalidades(NÃO FUNCIONAIS, MAS VISIVEIS).
 
-## Development server
+Descrição
+O objetivo deste projeto é exibir uma tabela de resultados de um torneio com as seguintes funcionalidades:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Exibição de uma tabela de equipes com suas respectivas pontuações, setores, pesos, quantidades e maior peixe.
+Filtros para baterias do torneio e modalidades.
+Botão para baixar o regulamento do torneio.
+Espaço para publicidade.
+Responsividade
+Embora o projeto não esteja totalmente responsivo, ele foi ajustado para ser apresentável em dispositivos móveis e tablets. Alguns elementos podem não se comportar perfeitamente em todas as resoluções de tela, mas a estrutura principal é acessível e utilizável em dispositivos menores.
 
-## Code scaffolding
+Tecnologias Utilizadas
+Angular
+HTML
+CSS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
