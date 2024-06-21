@@ -50,4 +50,4 @@ Embora o projeto não esteja totalmente responsivo, ele foi ajustado para ser ap
 
 O projeto está publicado e pode ser acessado através do link abaixo:
 
-[Link para o projeto publicado](https://seu-usuario.github.io/meu-projeto-angular))
+[Link para o projeto publicado][(https://clone-stebam-v2do.vercel.app/torneios)]
